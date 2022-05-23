@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPET</title>
+    <style>
+    body {
+        background-image: url('https://img.freepik.com/free-vector/cute-cartoon-dog-faces-with-bones-seamless-pattern-wallpaper_40564-77.jpg?w=2000');
+    }
+    #contenedor {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .caja {
+        border: 2px solid black;
+        background-image: url(https://oshiprint.in/image/data/poster/new/mqp911.jpeg);
+        width: right;
+    }
+    .columna {
+        display: inline-block;
+        padding: 2rem;
+    }
+    #menu {
+        width: 200px;
+        background-color: burlywood;
+    }
+    #main {
+        background-color: cyan;
+        width: 312px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .caja1 {
+        text-align: center;
+    }
+    .enlaces {
+        display: inline-block;
+        text-align: center;
+        padding: 2%;
+    }
+    .direccion {
+        display: inline-block;
+        text-align: center;
+    }
+    .abajo {
+        text-align: center;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <h1>Bienvenidos a InstaPET</h1>
+</head>
+<body>
+    <form>
+    <div id="contenedor">
+        <div class="caja1">
+        <p id="tituloform">Formulario de contacto</p> 
+        </div>
+        <div class="caja">
+            <div class="columna" id="main">
+                <h3>Ingrese los datos de su mascota</h3>
+                <form method="GET">
+                    <p>
+                        <label>Nombre:</label>
+                        <input type="text" placeholder="Nombre de mascota" required>
+                    </p>
+                    <p>
+                        <label>Edad:</label>
+                        <input type="number" placeholder="Edad mascota" required>
+                    </p>
+                    <p>
+                        <label>Correo:</label>
+                        <input type="email" placeholder="Ingrese su Correo electrónico" required>
+                    </p>
+                    <p>
+                        <label>Contraseña:</label>
+                        <input type="password" placeholder="Ingrese su clave" required>
+                    </p>
+                    <p>Color de tu mascota</p> 
+                    <input type="color">
+                    <p>Ingrese su consulta
+                        <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit">
+                        <p class="aceptar">Acepto los terminos y condiciones</p>
+                        <input type="checkbox" name="terminos" required>
+                    </p>
+    </form>
+            </div>
+        </div>
+    </div>
+    </form>
+            <div class="abajo">
+            <div class="enlaces" id="enlaces">
+                <p class="video">Video sobre Zoonosis</p>
+                <iframe class="video1" width="400" height="300" src="https://www.youtube.com/embed/LIXLhhspR04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>  
+            <div class="direccion" id="direccion">  
+                <p class="direct">Direccion</p>
+                <iframe class="video2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106436.56292079098!2d-70.8613874213923!3d-33.523678133571856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c32d2d2d2769%3A0x2930534a6e9b2d9b!2sCl%C3%ADnica%20Veterinaria%20Zoonosis!5e0!3m2!1ses-419!2scl!4v1653328362092!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+    </label>    
+</body>
+</html>
